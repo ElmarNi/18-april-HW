@@ -1,0 +1,79 @@
+img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.gallery{
+    margin: 0 auto;
+    max-width: 940px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul{
+    display:flex;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.menu li:hover{
+    color: white;
+    background: rgb(25, 99, 99);
+
+}
+.menu li{
+    padding: 10px 20px;
+    background: rgb(0, 192, 192);
+    border-right: 1px solid teal;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.menu li:first-child,
+.reverse li:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.menu li:last-child,
+.reverse li:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.opacity{
+    opacity: 0;
+}
+.images li{
+    position: relative;
+    transition: all .3s ease-in-out
+}
+span{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-top-left-radius: 10px;
+    background-color: rgba(61, 60, 60, 0.685);
+    text-align: center;
+    line-height: 40px;
+}
+.reverse ul{
+    margin-left: 5px;
+}
+.reverse ul li{
+    padding: 10px 20px;
+    background: rgb(192, 0, 58);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.reverse li:hover{
+    color: white;
+    background: rgb(112, 0, 34);
+}

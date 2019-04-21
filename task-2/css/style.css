@@ -1,0 +1,55 @@
+.upload-files{
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid
+
+}
+
+.upload-files i {
+    font-size: 35px;
+    color: rgb(0, 88, 88);
+    transition: all .3s ease;
+}
+.upload-files:hover i{
+    color: crimson
+}
+.upload-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images,
+.videos,
+.audios
+{
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 60px;
+    height: 100px;
+    object-fit: cover;
+}
+.videos p,
+.audios p
+{
+    margin: 10px;
+    padding: 5px
+}
+.videos p i,
+.audios p i
+{
+    margin-left: 5px;
+    font-size: 25px;
+    color: teal;
+    line-height: 25px;
+}
+.totals{
+    transition: all .7s ease;
+}
+.opacity{
+    opacity: 0;
+}
+.overing{
+    border-color: blueviolet;
+}

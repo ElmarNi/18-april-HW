@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="upload">
+                    <p class="upload-files text-center my-5"><i class="fas fa-cloud-upload-alt"></i> 
+                        Click me for upload your files or drop files to me
+                    </p>
+                    <input type="file" name="" id="upload-input" class="d-none" multiple>
+                </div>
+                <div class="upload-area"></div>
+            </div>
+        </div>
+        <div class="row total-wrapper">
+            <table class="table table-dark totals opacity">
+                <thead>
+                    <tr>
+                        <th scope="col">Total size of images</th>
+                        <th scope="col">Total size of videos</th>
+                        <th scope="col">Total size of audios</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
